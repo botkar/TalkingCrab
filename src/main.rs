@@ -1,7 +1,6 @@
 use ferris_says::say;
 use std::io::{stdout, BufWriter};
 use ansi_term::Color;
-use random::Source;
 
 fn main() {
     let input_text = Color::Yellow.bold();
